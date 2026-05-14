@@ -126,21 +126,16 @@ source venv/bin/activate # Mac/Linux
 ```
 
 ### 3. Install dependencies
-```bash
+```
 pip install -r requirements.txt
 ```
 
-### 4. Model Weights
+## 4. Model Weights
 
-The trained `.keras` model file is not included in this repository because of GitHub file size limitations.
+The trained EfficientNetB0 `.keras` model is included in the repository and automatically loaded by the Streamlit application during inference.
 
-To generate the model locally, run:
-
-```bash
-python train.py
-```
 ### 5. Run web app
-```bash
+```
 streamlit run app.py
 ```
 
@@ -150,7 +145,7 @@ Open http://localhost:8501 in your browser.
 
 ##  Training Your Own Model
 
-```bash
+```
 # Full two-phase training
 python train.py
 
