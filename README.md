@@ -1,6 +1,4 @@
 # Ai-Image-Detector
-#  AI Image Detector
-
 A deep learning web application that detects whether an uploaded
 image is **AI-generated** or a **real photograph** using
 EfficientNetB0 transfer learning.
