@@ -65,7 +65,7 @@ Dense(1, Sigmoid)
 ↓
 < 0.6 → AI-Generated
 
-0.5 → Real Photo
+0.6 → Real Photo
 ```
 ---
 
