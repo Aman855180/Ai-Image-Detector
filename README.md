@@ -214,4 +214,4 @@ false positives after testing on 50+ real world images.
 
 ---
 
-*Built by **Aman Kumar** | AI Image Detector v1.0 | May 2026*
+*Built by **Aman Kumar** | AI Image Detector *
