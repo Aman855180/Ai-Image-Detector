@@ -130,9 +130,15 @@ source venv/bin/activate # Mac/Linux
 pip install -r requirements.txt
 ```
 
-### 4. Download trained model
-Download `ai_image_detector.keras` and place in `model/` folder.
+### 4. Model Weights
 
+The trained `.keras` model file is not included in this repository because of GitHub file size limitations.
+
+To generate the model locally, run:
+
+```bash
+python train.py
+```
 ### 5. Run web app
 ```bash
 streamlit run app.py
