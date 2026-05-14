@@ -46,6 +46,7 @@ I implemented **two-phase training**:
 ---
 
 ##  Architecture
+```
 Input Image (any resolution)
 ↓
 Resize → 224 × 224 × 3
@@ -62,9 +63,10 @@ Dense(256, ReLU) → Dropout(0.4)
 ↓
 Dense(1, Sigmoid)
 ↓
-< 0.5 → AI-Generated
+< 0.6 → AI-Generated
 
 0.5 → Real Photo
+```
 ---
 
 ##  Project Structure
